@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CenittApp</string>
+    <string name="Registro">Registro Usuario</string>
+    <string name="OpcionTarifa">Opcion De Tarifa</string>
+    <string name="Iniciar">Iniciar Sesion</string>
+    <string name="InfoCliente">Info Del Cliente</string>
+    <string name="Tarifa01_dac_02">Tarifa 01,Dac,02</string>
+    <string name="TarifaHm">Tarifa HM</string>
+    <string name="TarifaOm">Tarifa OM</string>
+    <string name="Tarifa03">Tarifa 03</string>
+
+</resources>
