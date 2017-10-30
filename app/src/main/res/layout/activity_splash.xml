@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#fff"
     android:gravity="center"
-    tools:context="mx.cenitt.www.cenittapp.Splash">
+    tools:context=".inicio.Splash">
 
 
     <pl.droidsonroids.gif.GifTextView

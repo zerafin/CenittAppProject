@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
-    tools:context="mx.cenitt.www.cenittapp.RegistroUsuario">
+    tools:context=".super_usuario.RegistroUsuario">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,6 +38,7 @@
             android:maxLength="12"/>
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -54,6 +54,7 @@
             android:textSize="9pt"
             android:maxLength="15"/>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -69,15 +70,13 @@
             android:textSize="9pt"
             android:maxLength="15"/>
     </LinearLayout>
+
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:gravity="center"
         android:id="@+id/radioGroup1"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
         >
-     <!--   android:textColor="#e07e7077"-->
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -95,11 +94,19 @@
             />
     </RadioGroup>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp">
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Registar"
         android:id="@+id/button"
         android:layout_gravity="center" />
+
+    </LinearLayout>
 
 </LinearLayout>

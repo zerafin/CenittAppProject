@@ -3,4 +3,9 @@
     <color name="colorPrimary">#1E375E</color>
     <color name="colorPrimaryDark">#1E375E</color>
     <color name="colorAccent">#FFEF00</color>
+
+
+    <color name="headerNavBarStart">#1E375E</color>
+    <color name="headerNavBarCenter">#2d5189</color>
+    <color name="headerNavBarEnd">#5f9cfa</color>
 </resources>

@@ -1,4 +1,4 @@
-package mx.cenitt.www.cenittapp;
+package mx.cenitt.www.cenittapp.super_usuario;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBar;
@@ -9,6 +9,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+
+import mx.cenitt.www.cenittapp.inicio.InicioSesion;
+import mx.cenitt.www.cenittapp.R;
 
 public class RegistroUsuario extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener,View.OnClickListener{
 

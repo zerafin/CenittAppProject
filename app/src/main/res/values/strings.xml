@@ -8,5 +8,17 @@
     <string name="TarifaHm">Tarifa HM</string>
     <string name="TarifaOm">Tarifa OM</string>
     <string name="Tarifa03">Tarifa 03</string>
+    <string name="login">Accesar</string>
+    <string name="title_activity_super_principal">SuperPrincipal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="ulises">Ulises Garcia</string>
+    <string name="puesto_ulises">Director y Cofundador</string>
+    <string name="vendedores">Vendedores</string>
+    <string name="tecnicos">Tecnicos</string>
+    <string name="salir">Salir</string>
 
 </resources>
