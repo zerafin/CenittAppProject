@@ -8,8 +8,12 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".inicio.Splash">
+        <activity android:name=".inicio.Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".inicio.InicioSesion" />
         <!-- android:label="This is the Hello World Application" -->
@@ -27,13 +31,14 @@
             android:label="@string/title_activity_super_principal"
             android:theme="@style/AppTheme.NoActionBar">
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
         </activity>
+        <activity android:name=".ventas.VentasActivity" />
+        <activity android:name=".presupuesto.PresupuestoActivity" />
+        <activity
+            android:name=".tecnico.TecnicoActivity"
+            android:label="@string/title_activity_tecnico"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".presupuesto.NuevoPresupuestoActivity"></activity>
     </application>
 
 </manifest>

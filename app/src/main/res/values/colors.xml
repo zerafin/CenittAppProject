@@ -8,4 +8,6 @@
     <color name="headerNavBarStart">#1E375E</color>
     <color name="headerNavBarCenter">#2d5189</color>
     <color name="headerNavBarEnd">#5f9cfa</color>
+
+    <color name="promedio">#a7c9ff</color>
 </resources>

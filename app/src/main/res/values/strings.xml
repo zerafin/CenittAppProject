@@ -20,5 +20,11 @@
     <string name="vendedores">Vendedores</string>
     <string name="tecnicos">Tecnicos</string>
     <string name="salir">Salir</string>
+    <string name="title_activity_tecnico">TecnicoActivity</string>
+    <string name="datosCliente">Datos Cliente</string>
+    <string name="datosEmpleado">Datos Empleado</string>
+    <string name="datosRequerimientos">Requerimientos</string>
+    <string name="datosMateriales">Materiales</string>
+    <string name="datosCotizacion">Cotizacion</string>
 
 </resources>

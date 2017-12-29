@@ -17,6 +17,12 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/user_login" />
+
         <EditText
             android:id="@+id/Usuario"
             android:layout_width="match_parent"
@@ -30,6 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Contraseña"
+            android:inputType="textPassword"
             android:maxLength="15"
             android:textSize="25sp" />
     </LinearLayout>
